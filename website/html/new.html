@@ -13,7 +13,6 @@
   body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
-
   }
   h2 {
   color: #000000;}
@@ -170,15 +169,12 @@ padding: 80px 120px;
   a:link {
 	color:#f00fff;
 }
-
 a:visited {
 	color:#f00fff;
 }
-
 a:hover {
 	color:#00ffff;
 }
-
 a:active {
 	color:#ff00ff;
 }
@@ -187,7 +183,7 @@ a:active {
 		position: absolute;
 		border: 1px solid #000;
 		margin: auto;
-		top: 400px;
+		top: 550px;
 		bottom: 0;
 		right: 0;
 		left: 0;
@@ -197,7 +193,6 @@ h6 {
 	font-size:20px;
 	text-align:center;	
 }
-
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -241,16 +236,12 @@ h6 {
 	en link om naar links te gaan.
 	</h6>
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="row">
-  
-      
-   
      
      
    </div>
 </div>
-	
 
 <!-- Container (extra) -->
 <div id="tour" class="bg-1">
@@ -285,18 +276,11 @@ $(document).ready(function(){
  
   $('[data-toggle="tooltip"]').tooltip(); 
   
-
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-
     if (this.hash !== "") {
-
-
       event.preventDefault();
-
  
       var hash = this.hash;
-
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
@@ -309,22 +293,17 @@ $(document).ready(function(){
 })
 </script>
 <script>
-
   // Initialize Tooltip
   $('[data-toggle="tooltip"]').tooltip(); 
   
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
